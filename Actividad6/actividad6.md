@@ -13,10 +13,10 @@ El programa realiza tres llamadas consecutivas a la función `fork()`, la cual c
    
 3. **Tercera llamada a `fork()`**:
    - Los cuatro procesos existentes ejecutan la tercera llamada a `fork()`, lo que genera un total de **8** procesos.
+  
+### Respuesta final
 
-### Resultado
-![procesoZombie](zombie.png)
-
+En total, incluyendo el proceso inicial, el programa crea **8 procesos**.
 
 ### Explicación matemática
 
@@ -59,6 +59,10 @@ int main() {
     return 0;
 }
 ```
+### Resultado
+![procesoZombie](zombie.png)
+
+
 **Pregunta3:** Usando el siguiente código como referencia, completar el programa para que sea ejecutable y responder las siguientes preguntas:
 • ¿Cuántos procesos únicos son creados? Respuesta: 1
 • ¿Cuántos hilos únicos son creados? Respuesta: 4
