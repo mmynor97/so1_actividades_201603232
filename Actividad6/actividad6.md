@@ -1,5 +1,5 @@
 **Pregunta1:** ¿Incluyendo el proceso inicial, cuantos procesos son creados por el siguiente programa?
-Respuesta: 8
+<b>Respuesta: 8</b>
 
 ## Análisis de los procesos creados
 
@@ -14,9 +14,9 @@ El programa realiza tres llamadas consecutivas a la función `fork()`, la cual c
 3. **Tercera llamada a `fork()`**:
    - Los cuatro procesos existentes ejecutan la tercera llamada a `fork()`, lo que genera un total de **8** procesos.
 
-### Respuesta final
+### Resultado
+![procesoZombie](zombie.png)
 
-En total, incluyendo el proceso inicial, el programa crea **8 procesos**.
 
 ### Explicación matemática
 
